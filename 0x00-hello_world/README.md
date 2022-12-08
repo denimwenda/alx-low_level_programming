@@ -1,1 +1,1 @@
-generates
+compiles
