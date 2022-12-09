@@ -1,1 +1,1 @@
-compiles
+prints
