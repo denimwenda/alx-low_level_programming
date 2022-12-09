@@ -1,1 +1,1 @@
-assign
+prints
