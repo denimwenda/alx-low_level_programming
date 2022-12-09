@@ -6,9 +6,9 @@
  *
  * Return: 0
  */
-init main(void)
+int main(void)
 {
-	init n;
+	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
