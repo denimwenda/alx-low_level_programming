@@ -17,19 +17,19 @@ int main(void)
 	{
 		f_d = (c / 10 + '0');
 		l_d = (c % 10 + '0');
-		c2 = 0;
-		while (c2 <= 99)
+		c = 0;
+		while (c <= 99)
 		{
-			f_d2 = (c / 10 + '0');
-			l_d2 = (c % 10 + '0');
+			f_d = (c / 10 + '0');
+			l_d = (c % 10 + '0');
 
-			if (c < c2)
+			if (c < c)
 			{
 				putchar(f_d);
 				putchar(l_d);
 				putchar(' ');
-				putchar(f_d2);
-				putchar(l_d2);
+				putchar(f_d);
+				putchar(l_d);
 
 				if (c != 98)
 				{
@@ -38,7 +38,7 @@ int main(void)
 				}
 
 			}
-			c2++;
+			c++;
 		}
 		c++;
 	}
