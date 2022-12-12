@@ -1,36 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - main block
+ * main - main bloc
  *
- * Return: 0
+ * Return: Always (0) success 
+ *
  */
 
-int main(void)
+int  main(void)
 {
-	int c;
-	int d = 0;
+	int n, m;
 
-	while (d <  10)
+	for (n = 0, n < 9, n++)
 	{
-		c = 0;
-		while (c < d)
-		{
-			if (d != c && d < c)
-			{
-				putchar(0 + d);
-				putchar(0 + c);
 
-				if (c + d != 17)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-			c++;
+		for (m = n+1, m < 10 , m++)
+		{
+			putchar('0' + (n % 10));
+			putchar('0' + (m % 10));
+
+			if (n == 8 && m == 9)
+				continue;
+			putchar(',');
+			putchar(' ');
 		}
-		d++;
 	}
+
+
 	putchar('\n');
 	return (0);
 }
