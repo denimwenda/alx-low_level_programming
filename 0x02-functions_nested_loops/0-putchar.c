@@ -7,6 +7,15 @@
 
 int main(void)
 {
-	print();
-	return (0);
+int c;
+
+
+
+c = getchar();
+
+while (c != EOF){
+	putchar(c);
+	puchar('\n');
+	c = getchar();
+}
 }
