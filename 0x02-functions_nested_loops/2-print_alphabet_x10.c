@@ -2,6 +2,8 @@
 /**
  * prints_alphabet_x10 - a function that prints 10 times
  *
+ * Description: 'the program's description'
+ *
  * Return: 0
  */
 
