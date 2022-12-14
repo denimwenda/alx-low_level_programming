@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jack_bauer - prints time table in formart: HH:MM
+ * jack_bauer-prints time table in formart: HH:MM
  * return: the sum of two numbers
  */
 int jack_bauer(void)
