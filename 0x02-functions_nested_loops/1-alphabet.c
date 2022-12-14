@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * main - print_alphabets - entry point
+ * print_alphabet - This program prints the english alphabets a-z
  *
  * Return: void
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char c;
 
