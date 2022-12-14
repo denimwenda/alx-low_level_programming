@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * main - print english alphabets a-z
  *
@@ -9,7 +9,7 @@ int main(void)
 {
 	char c;
 
-	for (c = a; c <= z; c++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
 	}
