@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * main - checks lowwercase letters
+ * isLower - checks lowwercase letters
  * @c: parameter
  *
  * Return: 0 (success)
  */
 
-int _islower(int c)
+int isLower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
