@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - print english alphabets a-z
+ * main - print_alphabets();
  *
  * Return: void
  */
@@ -11,7 +11,7 @@ int main(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		_putchar(c);
+		putchar(c);
 	}
 	_putchar('\n');
 	return (0);
