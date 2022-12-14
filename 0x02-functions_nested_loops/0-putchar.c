@@ -16,7 +16,7 @@ c = getchar();
 
 while (c != EOF){
 	putchar(c);
-	puchar('\n');
+	putchar('\n');
 	c = getchar();
 }
 }
