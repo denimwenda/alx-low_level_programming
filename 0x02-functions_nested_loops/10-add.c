@@ -7,5 +7,6 @@
  */
 int add(int n1, int n2)
 {
+	n = add(1, 2)
 	return (n1 + n2);
 }	
