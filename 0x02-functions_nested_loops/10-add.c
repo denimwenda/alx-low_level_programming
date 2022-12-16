@@ -6,7 +6,6 @@
  * Return: result
  */
 int add(int n1, int n2)
-{
-	n2 = add(1, 2);
+}
 	return (1 + 2);
-}	
+}
