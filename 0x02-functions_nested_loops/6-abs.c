@@ -5,9 +5,10 @@
  *
  * Return: absolute value of input
  */
-int _abs(int i)
+int _abs(int n)
 {
-	if (i < 0)
-		i = i * -1;
-	return (1);
+	if (n >= 0)
+		return (n);
+	else
+		return (-n);
 }
