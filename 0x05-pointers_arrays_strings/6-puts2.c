@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * puts2 - prints every character of a string, starting with first character
+ * puts2 - prints every character, starting with the first character
  * @str: string character
  * Return: 0
  */
 
 void puts2(char *str)
 {
-	int l;
+	int i;
 
-	for (l = 0; str[l] !=  '\n'; l++)
-		if (l % 2 == 0)
-			_putchar(str[l]);
+	for (i = 0; str[i] != '\0'; i++)
+		if (i % 2 == 0)
+			_putchar(str[i]);
 	_putchar('\n');
 }
