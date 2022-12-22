@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcat - concatenates two strings
+ * _strcat - appends src string to the dest string
  * @dest:char
  * @src:char
  * return: char
@@ -16,9 +16,9 @@ char *_strcat(char *dest, char *src)
 	}
 	while (*src != '\0')
 	{
-		*src = *dest;
-		src++;
+		*dest = *src;
 		dest++;
+		src++;
 	}
 	*dest = '\0';
 	return (s);
