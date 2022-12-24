@@ -9,21 +9,21 @@
  */
 void print_line(char *c, int s, int l)
 {
-	int y, z;
+	int j, k;
 
-	for (y = 0; y <= 9; y++)
+	for (j = 0; j <= 9; j++)
 	{
-		if (y <= s)
-			printf("%02x", c[l * 10 + y]);
+		if (j <= s)
+			printf("%02x", c[l * 10 + j]);
 		else
-			printf(" ");
-		if (y % 2)
+			printf("  ");
+		if (j % 2)
 			putchar(' ');
 	}
-	for (z = 0; z <= s; z++)
+	for (k = 0; k <= s; k++)
 	{
-		if (c[l * 10 + z] > 31 && c[l * 10 + z] < 127)
-			putchar(c[l * 10 + z]);
+		if (c[l * 10 + k] > 31 && c[l * 10 + k] < 127)
+			putchar(c[l * 10 + k]);
 		else
 			putchar('.');
 	}
