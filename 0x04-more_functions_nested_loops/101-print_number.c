@@ -1,22 +1,19 @@
 #include "main.h"
 
 /**
- * print_number - prints an integer
- * @n:.input integer
+ * print_most_numbers - prints the numbers, from 0 to 9, followed by a new line
  */
 
-void print_number(int n)
+void print_most_numbers(void)
 {
-	unsigned int i = n;
+	int b = 0;
 
-	if (n < 0)
+	for (; b < 10; b++)
 	{
-		_putchar(45);
-		i = -i;
+		if (b == 2 || b == 4)
+			continue;
+
+		putchar(b + '0');
 	}
-	if (i / 10)
-	{
-		print_number(i / 10);
-	}
-	_putchar(i % 10 + '0');
+	putchar('\n');
 }
