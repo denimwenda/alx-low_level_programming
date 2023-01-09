@@ -4,7 +4,7 @@
  * main - multiplies two numbers
  * @argv: int
  * @argc: int
- * Return: 0
+ * Return: always 0
  */
 int main(int argc, char **argv)
 {
