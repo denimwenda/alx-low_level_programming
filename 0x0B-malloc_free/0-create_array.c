@@ -7,7 +7,7 @@
  * @c: char
  * Return: NULL
  */
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
 	char *b;
 	unsigned int d;
