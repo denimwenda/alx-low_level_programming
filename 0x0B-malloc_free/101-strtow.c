@@ -43,7 +43,7 @@ char **strtow(char *str)
 		return (NULL);
 
 	matrix = (char **) malloc(sizeof(char *) * (words + 1));
-	f(matrix == NULL)
+	if (matrix == NULL)
 		return (NULL);
 
 	for (i = 0; i <= len; i++)
