@@ -1,1 +1,1 @@
-program that multiplies two numbers
+program that prints all arguments it receives
