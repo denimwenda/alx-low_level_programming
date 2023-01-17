@@ -9,9 +9,9 @@ typedef struct dog dog_t;
 
 /**
  * struct dog - new type
- * @name: char
- * @age: float
- * @owner: char
+ * @name: name of the dog
+ * @age: age of the dog
+ * @owner: struct called "dog" that stores its name, its age and the name of its owner
  */
 struct dog
 {
