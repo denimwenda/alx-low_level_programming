@@ -2,9 +2,9 @@
 /**
  * int_index - ..
  * @array: ..
- * @size: ..
- * @cmp: ..
- * Return: ..
+ * @size: ...
+ * @cmp: ...
+ * Return: ...
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
