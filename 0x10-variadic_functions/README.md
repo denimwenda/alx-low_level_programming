@@ -1,1 +1,1 @@
-a function that prints anything
+a function that prints numbers, followed by a new line
