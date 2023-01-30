@@ -1,4 +1,4 @@
-i#include "lists.h"
+#include "lists.h"
 int len(const char *str);
 st_t *create_node(const char *str);
 
