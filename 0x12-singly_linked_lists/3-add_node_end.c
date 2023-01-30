@@ -1,4 +1,4 @@
-#include "lists.h"
+i#include "lists.h"
 int len(const char *str);
 st_t *create_node(const char *str);
 
@@ -12,6 +12,7 @@ list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *tmp;
 	list_t *new_node;
+
 
 	tmp = *head;
 	if (head == NULL)
